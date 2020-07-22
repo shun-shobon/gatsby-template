@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-template",
+  "version": "0.1.0",
+  "description": "GatsbyJSの自分用テンプレートです。",
+  "author": "shun-shobon <shun.shobon@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/shun-shobon/gatsby-template.git"
+}
