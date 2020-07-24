@@ -28,6 +28,13 @@
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-typescript": "^2.4.16",
     "sass": "^1.26.10",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.0.4",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0",
     "typescript": "^3.9.7"
   }
 }
