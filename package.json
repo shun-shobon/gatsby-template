@@ -16,6 +16,15 @@
     "stylelint": "stylelint 'src/**/*.{css,scss}'",
     "stylelint:fix": "yarn stylelint --fix"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --fix",
+    "*.{css,scss}": "stylelint --fix"
+  },
   "dependencies": {
     "gatsby": "^2.24.10",
     "react": "^16.13.1",
@@ -29,6 +38,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-typescript": "^2.4.16",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "sass": "^1.26.10",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
