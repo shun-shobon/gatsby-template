@@ -7,7 +7,7 @@
   "private": true,
   "repository": "https://github.com/shun-shobon/gatsby-template.git",
   "dependencies": {
-    "gatsby": "^2.24.9",
+    "gatsby": "^2.24.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
