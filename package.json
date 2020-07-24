@@ -12,7 +12,9 @@
     "dev": "gatsby develop",
     "check": "tsc",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "stylelint": "stylelint 'src/**/*.{css,scss}'",
+    "stylelint:fix": "yarn stylelint --fix"
   },
   "dependencies": {
     "gatsby": "^2.24.10",
