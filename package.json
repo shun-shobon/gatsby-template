@@ -11,8 +11,8 @@
     "serve": "gatsby serve",
     "dev": "gatsby develop",
     "check": "tsc",
-    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "lint:fix": "yarn lint --fix",
+    "eslint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "eslint:fix": "yarn eslint --fix",
     "stylelint": "stylelint 'src/**/*.{css,scss}'",
     "stylelint:fix": "yarn stylelint --fix"
   },
