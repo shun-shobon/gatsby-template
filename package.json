@@ -26,7 +26,7 @@
     "*.{css,scss}": "stylelint --fix"
   },
   "dependencies": {
-    "gatsby": "^2.24.23",
+    "gatsby": "^2.24.60",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
