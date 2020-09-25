@@ -12,9 +12,9 @@
     "dev": "gatsby develop",
     "check": "tsc",
     "eslint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "eslint:fix": "yarn eslint --fix",
+    "eslint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
     "stylelint": "stylelint 'src/**/*.{css,scss}'",
-    "stylelint:fix": "yarn stylelint --fix"
+    "stylelint:fix": "stylelint 'src/**/*.{css,scss}' --fix"
   },
   "husky": {
     "hooks": {
